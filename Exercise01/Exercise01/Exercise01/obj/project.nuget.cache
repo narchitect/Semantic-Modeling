@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zNVz3rui8jgI/vLVtJcwBpEGpV430XZAcwiwd7WsWUB1WflP5LCrVnygKFsBJxDCAGQI0RtFF7lHuVB3Blng2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anwender\\Documents\\GitHub\\Semantic-Modeling\\Exercise01\\Exercise01\\Exercise01\\Exercise01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anwender\\.nuget\\packages\\geometrygymifc_core\\0.2.15\\geometrygymifc_core.0.2.15.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Anwender\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
