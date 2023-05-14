@@ -1,0 +1,2 @@
+<https://example.org/MountEverest> <https://example.org/hasElevation> "8848"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/MountEverest> <https://example.org/firstAscentBy> <https://example.org/edmundHillary> .
