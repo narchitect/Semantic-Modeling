@@ -1,0 +1,611 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix bot: <https://w3id.org/bot#>.
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#>.
+@prefix lbd: <https://linkebuildingdata.org/LBD#>.
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#>.
+@prefix geo: <http://www.opengis.net/ont/geosparql#>.
+@prefix unit: <http://qudt.org/vocab/unit/>.
+@prefix smls: <https://w3id.org/def/smls-owl#>.
+@prefix inst: <https://www.ugent.be/myAwesomeFirstBIMProject1#>.
+
+<https://example.org/smartBlind_1> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_10> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_11> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_2> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_3> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_4> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_5> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_6> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_7> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_8> a <https://example.org/smartBlind>.
+<https://example.org/smartBlind_9> a <https://example.org/smartBlind>.
+inst:beam_2890c031-5438-4a62-93fb-6e153e0ac2b5 props:batid_attribute_simple "542BAFA7-D3B2-4074-B0-AF-859DB4CE679A";
+                                               props:globalIdIfcRoot_attribute_simple "0eaC0nL3XAOfFxRXK_2iAr";
+                                               props:nameIfcRoot_attribute_simple "Pfette-2-1";
+                                               a bot:Element.
+inst:beam_8095d928-dda3-4acd-917a-228a8feed043 props:batid_attribute_simple "C2B602D2-A015-453B-9E-EF-BB998BB27F3B";
+                                               props:globalIdIfcRoot_attribute_simple "20bTaetQDApP5w8egFxj13";
+                                               props:nameIfcRoot_attribute_simple "First";
+                                               a bot:Element.
+inst:beam_ed8d1a17-9a9e-4d5a-927a-43febb261d10 props:batid_attribute_simple "C8707AC7-4260-4F76-A6-95-7665806B676D";
+                                               props:globalIdIfcRoot_attribute_simple "3jZHeNcfvDMf9wG$wx9XqG";
+                                               props:nameIfcRoot_attribute_simple "Pfette-1-1";
+                                               a bot:Element.
+inst:beam_f732a8dd-242b-46a7-a229-86ae8c5434f0 props:batid_attribute_simple "EAFC436F-7CDC-482B-8B-93-5FDB86D941A9";
+                                               props:globalIdIfcRoot_attribute_simple "3tCgZT92j6fw8fXgwCL3Jm";
+                                               props:nameIfcRoot_attribute_simple "Unterzug-1";
+                                               props:objectTypeIfcObject_attribute_simple "Radial Gradient Fill 1515460218 200 x 240";
+                                               a bot:Element.
+inst:building_ab68b29f-658d-457f-badc-0d3bc06041eb props:descriptionIfcRoot_attribute_simple "FZK-Haus create by KHH / IAI / FZK";
+                                                   props:globalIdIfcRoot_attribute_simple "2hQBAVPOr5VxhS3Jl0O47h";
+                                                   props:nameIfcRoot_attribute_simple "FZK-Haus";
+                                                   props:objectTypeIfcObject_attribute_simple "Wohnhaus";
+                                                   a bot:Building;
+                                                   bot:hasStorey inst:storey_a8f3bcfc-63b2-45c0-902d-c368556386c0,
+                                                                 inst:storey_870ea0fa-d15f-4dde-9892-bc7d34baa998.
+inst:door_3340ab6f-4d66-43b2-9899-29d7cf17b29b props:batid_attribute_simple "CBFAA406-7368-4C3F-96-65-F3ED0FC60C2F";
+                                               props:globalIdIfcRoot_attribute_simple "0pGAjlJMP3ifYPATVF5xAR";
+                                               props:nameIfcRoot_attribute_simple "Innentuer-2";
+                                               props:overallHeightIfcDoor_attribute_simple "2.01"^^xsd:double;
+                                               props:overallWidthIfcDoor_attribute_simple "0.885"^^xsd:double;
+                                               a bot:Element.
+inst:door_56feaede-d610-4fb3-aa03-64613ae87785 props:batid_attribute_simple "AA410C09-759E-446C-95-DA-CF8531C8625F";
+                                               props:globalIdIfcRoot_attribute_simple "1M$gxUrX1Fiwe3P64ww7U5";
+                                               props:nameIfcRoot_attribute_simple "Terrassentuer";
+                                               props:overallHeightIfcDoor_attribute_simple "2.375"^^xsd:double;
+                                               props:overallWidthIfcDoor_attribute_simple "2.01"^^xsd:double;
+                                               a bot:Element.
+inst:door_58c36207-1644-4382-afc9-bc61510a343a props:batid_attribute_simple "E605AACB-6C4E-458D-93-46-5D9D8C7C21D3";
+                                               props:globalIdIfcRoot_attribute_simple "1Oms875aH3Wg$9l65H2ZGw";
+                                               props:nameIfcRoot_attribute_simple "Innentuer-1";
+                                               props:overallHeightIfcDoor_attribute_simple "2.01"^^xsd:double;
+                                               props:overallWidthIfcDoor_attribute_simple "0.885"^^xsd:double;
+                                               a bot:Element.
+inst:door_ad75bd26-aeda-47c8-b03c-ada184182740 props:batid_attribute_simple "3CAFB746-2204-4C6C-BF-ED-F5FE276FA162";
+                                               props:globalIdIfcRoot_attribute_simple "2jTRqchjf7oB0yhQ6462T0";
+                                               props:nameIfcRoot_attribute_simple "Haustuer";
+                                               props:overallHeightIfcDoor_attribute_simple "2.01"^^xsd:double;
+                                               props:overallWidthIfcDoor_attribute_simple "1.01"^^xsd:double;
+                                               a bot:Element.
+inst:door_b4b1964f-0cfd-4f21-84b4-a7552c71ed30 props:batid_attribute_simple "12291272-8C4D-42C2-A4-E5-68086A355C33";
+                                               props:globalIdIfcRoot_attribute_simple "2qiPPF3FrF8OIqfrKiSUqm";
+                                               props:nameIfcRoot_attribute_simple "Innentuer-3";
+                                               props:overallHeightIfcDoor_attribute_simple "2.01"^^xsd:double;
+                                               props:overallWidthIfcDoor_attribute_simple "0.885"^^xsd:double;
+                                               a bot:Element.
+inst:member_064e3598-7cb8-487f-899c-6ba683cbf227 props:batid_attribute_simple "DDE46763-BE57-4EF4-A5-94-B80ED2242C61";
+                                                 props:globalIdIfcRoot_attribute_simple "06JZMOVBX8VucSQwQ3o$8d";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-25";
+                                                 a bot:Element.
+inst:member_096304f3-7a6b-4483-95f3-0a78513d682d props:batid_attribute_simple "478277F6-2A8B-4D9B-A7-C6-59173581CD24";
+                                                 props:globalIdIfcRoot_attribute_simple "09OmJpUcj4WvNp2dXHFMWj";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-22";
+                                                 a bot:Element.
+inst:member_0d75bb8e-f40d-46ab-9f50-19f9cdd42131 props:batid_attribute_simple "A4621E86-FF56-40DC-B3-C2-2633C779B3A5";
+                                                 props:globalIdIfcRoot_attribute_simple "0DTRkEz0r6gvzG6VdDr24n";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-36";
+                                                 a bot:Element.
+inst:member_1850c409-e101-43b0-9501-1beec3897a7d props:batid_attribute_simple "ABC5FCBF-447C-455B-8A-94-54C01FF84C7D";
+                                                 props:globalIdIfcRoot_attribute_simple "0OKCG9uG53i9K16_x3YNfz";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-20";
+                                                 a bot:Element.
+inst:member_1ff73dd6-2075-46e1-8b5a-b4023776149a props:batid_attribute_simple "BE5019AF-A097-455A-8D-66-DE59506D51CF";
+                                                 props:globalIdIfcRoot_attribute_simple "0VzptM87L6uOjQj08tTXIQ";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-15";
+                                                 a bot:Element.
+inst:member_2b6eb260-2ffb-4c57-abca-b340f9a70a89 props:batid_attribute_simple "C9E34584-2109-4676-8F-0C-A5C9428DA4B4";
+                                                 props:globalIdIfcRoot_attribute_simple "0hRh9WB$jCLwlAiq3vfmg9";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-31";
+                                                 a bot:Element.
+inst:member_31d97fad-b92d-4b68-be10-3d6abef563aa props:batid_attribute_simple "3C8A05AD-ECBB-4E09-B7-46-95B6A3DF895C";
+                                                 props:globalIdIfcRoot_attribute_simple "0nsN_jkIrBQBuGFMg_zMEg";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-5";
+                                                 a bot:Element.
+inst:member_3275a19f-05f9-4caf-8bf5-a0afaba707a4 props:batid_attribute_simple "4E567244-877A-453F-BD-15-E8D98D599364";
+                                                 props:globalIdIfcRoot_attribute_simple "0oTQ6V1VbChulreA_hfmUa";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-1";
+                                                 a bot:Element.
+inst:member_34066be6-5c4b-4f12-a9ec-b8c258f1cf07 props:batid_attribute_simple "78E8AC76-2667-4770-91-D7-813BE341C319";
+                                                 props:globalIdIfcRoot_attribute_simple "0q1clcN4jF4gdikC9OySy7";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-18";
+                                                 a bot:Element.
+inst:member_4759132a-7e2c-4289-9561-146f21793955 props:batid_attribute_simple "8B9D9C34-42AA-4C87-A3-E8-C117928F7CD6";
+                                                 props:globalIdIfcRoot_attribute_simple "17MHCgVYn2YPLX56yXUJbL";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-29";
+                                                 a bot:Element.
+inst:member_572cdebe-b3eb-4dff-81d2-b79eb0959c3b props:batid_attribute_simple "62D6313A-B4FB-45BF-B3-97-10D01124A4F9";
+                                                 props:globalIdIfcRoot_attribute_simple "1NBDw_i_jD$u7IjvwmbPmx";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-32";
+                                                 a bot:Element.
+inst:member_589ae61b-a2b8-4ec8-bf94-4956904e4c85 props:batid_attribute_simple "4C100AD3-729F-46E0-BD-62-DE5D7DA40117";
+                                                 props:globalIdIfcRoot_attribute_simple "1OckORehXEoB_KILQGJao5";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-4";
+                                                 a bot:Element.
+inst:member_7140d3cb-2d1e-4b4c-95f0-bfaa1a600a61 props:batid_attribute_simple "2968F842-8ADC-4770-91-67-18314645959B";
+                                                 props:globalIdIfcRoot_attribute_simple "1nGDFBBHvBJ9NmlweQO0fX";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-9";
+                                                 a bot:Element.
+inst:member_7458eb34-05af-46ab-8d08-a8140c60db13 props:batid_attribute_simple "3A999AF6-1C12-413A-89-B2-BF4A3CAEAD63";
+                                                 props:globalIdIfcRoot_attribute_simple "1qMEiq1Qz6guq8g1GCODiJ";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-34";
+                                                 a bot:Element.
+inst:member_77cde626-7ce6-4c42-a3f4-73d01f971b1a props:batid_attribute_simple "C5F380CE-4BE5-466B-BC-4B-3A944CEE034E";
+                                                 props:globalIdIfcRoot_attribute_simple "1tpUOcVEPCGgFqSz0VbniQ";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-2";
+                                                 a bot:Element.
+inst:member_78bd1bd7-778b-4724-8636-0ee273aeb7cc props:batid_attribute_simple "6900A38D-6218-470C-AC-22-9AFA78DAFBA8";
+                                                 props:globalIdIfcRoot_attribute_simple "1ulHlNTuj798Os3k9phhVC";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-3";
+                                                 a bot:Element.
+inst:member_802b678d-5aa4-404f-a2ac-dfc9d4ab6630 props:batid_attribute_simple "08446AD9-0161-4E13-8B-5D-20F9D44DB92A";
+                                                 props:globalIdIfcRoot_attribute_simple "20AsUDMgH0JwAitydKgsOm";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-27";
+                                                 a bot:Element.
+inst:member_82c97fa5-6097-44b5-8168-404414807968 props:batid_attribute_simple "BC192F3D-2C51-4B28-92-78-5806097A3CB1";
+                                                 props:globalIdIfcRoot_attribute_simple "22oN_bO9T4jO5eG4GKW7be";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-40";
+                                                 a bot:Element.
+inst:member_83cf057e-0a44-4821-87f4-833f85569ba9 props:batid_attribute_simple "1FD04C72-582E-4AB8-B8-09-181F7DD7D62F";
+                                                 props:globalIdIfcRoot_attribute_simple "23pmL_2aH88OVqWp_5Lfkf";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-24";
+                                                 a bot:Element.
+inst:member_8aed2767-def3-41ac-9883-f2821e24395f props:batid_attribute_simple "2B89760B-0C8D-4559-A3-B2-5B1635543320";
+                                                 props:globalIdIfcRoot_attribute_simple "2AxITdtlD1h9Y3ye8U93bV";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-35";
+                                                 a bot:Element.
+inst:member_8cece03f-b61d-48b1-8441-7cc0aa54c861 props:batid_attribute_simple "0EAB97A9-E52A-4D7B-84-E2-0AFFA517A7C3";
+                                                 props:globalIdIfcRoot_attribute_simple "2CxE0$jXr8iOH1VC2gLCXX";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-16";
+                                                 a bot:Element.
+inst:member_8d47f615-c989-4db8-adfa-d1ff579dec5c props:batid_attribute_simple "E4FF91FA-3AE7-4591-8D-5F-61E57F7BA5DE";
+                                                 props:globalIdIfcRoot_attribute_simple "2DH$OLoObDkAtwqVzNdUnS";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-33";
+                                                 a bot:Element.
+inst:member_98456747-2c62-4f15-96d0-fa90f55a6b4f props:batid_attribute_simple "72ECFA45-517E-45A7-A9-F0-58BB40719283";
+                                                 props:globalIdIfcRoot_attribute_simple "2OHMT7B69F5PRG_f3rMcjF";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-13";
+                                                 a bot:Element.
+inst:member_9ca5cced-fb38-49c7-9768-318ee8534767 props:batid_attribute_simple "29979C4B-420D-4ED2-B5-48-6AE887E69AD4";
+                                                 props:globalIdIfcRoot_attribute_simple "2SfSpj_pX9nvTeCOxeKqTd";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-28";
+                                                 a bot:Element.
+inst:member_a1f22e35-c3df-4d60-a4b2-8c509b2474f0 props:batid_attribute_simple "56BAD4E8-0059-4C72-85-8A-9B23D2E15426";
+                                                 props:globalIdIfcRoot_attribute_simple "2XyYurmzzDOAIoZ52R97Jm";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-30";
+                                                 a bot:Element.
+inst:member_acc406b9-a628-4e93-abc1-a43599065d02 props:batid_attribute_simple "6A479A30-3EE6-49CF-80-83-949E8139A87B";
+                                                 props:globalIdIfcRoot_attribute_simple "2in0QvfYXEawl1f3MP1bq2";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-41";
+                                                 a bot:Element.
+inst:member_ad2cf8ec-6ba0-4103-97c7-8621c7514a7b props:batid_attribute_simple "EC41283A-3BA0-4DB3-BD-68-564054F72630";
+                                                 props:globalIdIfcRoot_attribute_simple "2jBFZiQw110vV7XY77KKfx";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-39";
+                                                 a bot:Element.
+inst:member_c16b8e82-44ae-4fd3-9fc9-f93a8ce28c33 props:batid_attribute_simple "860FAA0C-B6F9-41C9-B0-FC-435F2488ECA6";
+                                                 props:globalIdIfcRoot_attribute_simple "31Quw2HAvFqv$9_JgCuemp";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-6";
+                                                 a bot:Element.
+inst:member_c1d7c0de-6623-47ea-856f-e0bbeb6bb863 props:batid_attribute_simple "CAE5E5C0-4299-44F4-A2-1A-688219A1DA30";
+                                                 props:globalIdIfcRoot_attribute_simple "31ry3UPYD7weLluBlhQxXZ";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-26";
+                                                 a bot:Element.
+inst:member_c4f59702-65e7-4b35-8a07-a876d26e1500 props:batid_attribute_simple "00000000-0000-0000-00-00-000000000000";
+                                                 props:globalIdIfcRoot_attribute_simple "34zPS2PUTBDOe7g7RIRXK0";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-14";
+                                                 a bot:Element.
+inst:member_c580398f-9845-475a-b4db-02a4ae278b36 props:batid_attribute_simple "3482C9DC-403F-437C-94-B9-0E7ACBDA5DBF";
+                                                 props:globalIdIfcRoot_attribute_simple "35W3cFc4L7MhJR0gIk9uis";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-7";
+                                                 a bot:Element.
+inst:member_c6510835-09be-486b-87ab-5f1ca6c02c51 props:batid_attribute_simple "264D278D-153D-4271-87-B7-5ACB8AB7C031";
+                                                 props:globalIdIfcRoot_attribute_simple "36KGWr2Rv8QuUhNnocm2nH";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-19";
+                                                 a bot:Element.
+inst:member_c79250f4-facf-4885-bde8-d69c5651d6a1 props:batid_attribute_simple "1AB90595-0D25-474F-96-60-565DF04537D3";
+                                                 props:globalIdIfcRoot_attribute_simple "37ab3q_iz8XRterfnMKTQX";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-11";
+                                                 a bot:Element.
+inst:member_cc701d76-3839-4b1f-9591-2a7b7c924c2b props:batid_attribute_simple "46488648-16DC-44A4-91-12-698B815D6192";
+                                                 props:globalIdIfcRoot_attribute_simple "3CS1rsE3bB7vMHAdjyaamh";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-38";
+                                                 a bot:Element.
+inst:member_ceab638c-7df9-46f5-a871-50388f9a02b8 props:batid_attribute_simple "21F55D0B-AD74-40D8-A5-20-4365CC35D364";
+                                                 props:globalIdIfcRoot_attribute_simple "3EgsECVVb6zQXnK3YFcWAu";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-42";
+                                                 a bot:Element.
+inst:member_cf1482b4-ed3a-4ffd-abb8-ca6a1aae0a83 props:batid_attribute_simple "05E9C0F2-246F-4C01-A3-3C-ABB1F44064B4";
+                                                 props:globalIdIfcRoot_attribute_simple "3F58AqxJfF$QkuoceQhWg3";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-8";
+                                                 a bot:Element.
+inst:member_de774cfc-9fda-47b0-84c6-b16882dd1b2f props:batid_attribute_simple "A64DDEB8-B180-474D-B9-AA-2A96A26C443D";
+                                                 props:globalIdIfcRoot_attribute_simple "3UTqpydzf7i8J6iMY2tHil";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-37";
+                                                 a bot:Element.
+inst:member_e8660b9c-f795-4acf-a85d-dc3940482c5f props:batid_attribute_simple "7D626D3E-AA80-4308-86-DA-76F09E2350F5";
+                                                 props:globalIdIfcRoot_attribute_simple "3ePWkSzvLApwXTt3b0I2nV";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-21";
+                                                 a bot:Element.
+inst:member_ec715229-d505-4dea-83e4-d49b44f6a4fe props:batid_attribute_simple "3DB3AE4B-A425-47F3-BB-76-E3009AE09ABB";
+                                                 props:globalIdIfcRoot_attribute_simple "3iSL8frGLDweFar9j4zgJ_";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-23";
+                                                 a bot:Element.
+inst:member_f43e60e0-d752-4b2d-94fc-942e8bfc46e4 props:batid_attribute_simple "639CABF2-BEEF-41F8-9F-C4-7379CD6756B8";
+                                                 props:globalIdIfcRoot_attribute_simple "3qFc3Wrr9BBPJyb2wB$4Ra";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-10";
+                                                 a bot:Element.
+inst:member_f643fb1e-8ca8-4424-9a1e-5081dea63bbe props:batid_attribute_simple "30C22D1D-028D-4B38-BE-CD-BF763016FE7B";
+                                                 props:globalIdIfcRoot_attribute_simple "3sG$iUZAX499eUK87UfZk_";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-17";
+                                                 a bot:Element.
+inst:member_fb9d5ebb-7563-4797-a12b-83261a544056 props:batid_attribute_simple "38A8137C-9D72-40E7-98-54-BAA748BE06F0";
+                                                 props:globalIdIfcRoot_attribute_simple "3xdLwxTMD7bw4hWoOQL41M";
+                                                 props:nameIfcRoot_attribute_simple "Sparren-12";
+                                                 a bot:Element.
+inst:railing_0993b914-7878-41f9-8231-1a7c30b2304e props:batid_attribute_simple "00000000-0000-0000-00-00-000000000000";
+                                                  props:globalIdIfcRoot_attribute_simple "09axaKU7X1_O8n6dmmiZ1E";
+                                                  a bot:Element.
+inst:railing_32179a8c-53c7-4bf5-817f-6939920a2359 props:batid_attribute_simple "00000000-0000-0000-00-00-000000000000";
+                                                  props:globalIdIfcRoot_attribute_simple "0o5vgCKyTBzO5$QJcI2YDP";
+                                                  a bot:Element.
+inst:site_145b3b0a-bf19-4509-ba9a-e1604ce9fa67 props:descriptionIfcRoot_attribute_simple "Ebenes Gelaende";
+                                               props:globalIdIfcRoot_attribute_simple "0KMpiAlnb52RgQuM1CwVfd";
+                                               props:nameIfcRoot_attribute_simple "Gelaende";
+                                               props:objectTypeIfcObject_attribute_simple "LandUse";
+                                               props:refElevationIfcSite_attribute_simple "110."^^xsd:double;
+                                               a bot:Site;
+                                               bot:hasBuilding inst:building_ab68b29f-658d-457f-badc-0d3bc06041eb.
+inst:slab_073b1976-d302-4c1c-a68c-26cf0bea970d props:batid_attribute_simple "E142B455-80E4-4B96-83-EC-E1589CA998DB";
+                                               props:globalIdIfcRoot_attribute_simple "07Enbsqm9C7AQC9iyBwfSD";
+                                               props:nameIfcRoot_attribute_simple "Dach-1";
+                                               a bot:Element.
+inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b props:batid_attribute_simple "E4D9CD4B-CA43-4735-94-BD-1FD4376BD455";
+                                               props:globalIdIfcRoot_attribute_simple "1pPHnf7cXCpPsNEnQf8_6B";
+                                               props:nameIfcRoot_attribute_simple "Bodenplatte";
+                                               a bot:Element.
+inst:slab_92ede797-79f6-4b19-897f-a2c98ca59097 props:batid_attribute_simple "BD6D9414-37DF-40A8-88-40-301A32A9A5B5";
+                                               props:globalIdIfcRoot_attribute_simple "2IxUUNUVPB6Ob$eicCfP2N";
+                                               props:nameIfcRoot_attribute_simple "Dach-2";
+                                               a bot:Element.
+inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795 props:batid_attribute_simple "DA0A17AC-B773-47AC-99-C5-D390C73AD5CC";
+                                               props:globalIdIfcRoot_attribute_simple "2RGlQk4xH47RHK93zcTzUL";
+                                               props:nameIfcRoot_attribute_simple "Slab-033";
+                                               a bot:Element.
+inst:space_15dc8a9b-f8e2-4e72-8411-1788bea89a09 props:globalIdIfcRoot_attribute_simple "0Lt8gR_E9ESeGH5uY_g9e9";
+                                                props:longNameIfcSpatialElement_attribute_simple "Wohnen";
+                                                props:nameIfcRoot_attribute_simple "5";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:window_cb3e6f2f-3368-4711-968a-c9b2a81695f9,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:wall_463575f4-f696-42de-bde9-918a6fe7650a,
+                                                                    inst:wall_a167c520-8800-48d8-a07c-aa352a699dde,
+                                                                    inst:window_8e6abfad-ad90-4bf8-af8a-5b8713985380,
+                                                                    inst:door_56feaede-d610-4fb3-aa03-64613ae87785,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:wall_85a76959-f2e0-457f-9e21-4bff17528c54.
+inst:space_28fab96e-49a1-4d59-abd2-4ff09f0edfb0 props:globalIdIfcRoot_attribute_simple "0e_hbkIQ5DMQlIJ$2V3j_m";
+                                                props:longNameIfcSpatialElement_attribute_simple "Bad";
+                                                props:nameIfcRoot_attribute_simple "3";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:wall_65f697f6-4f4c-4836-8159-e2e335d3cbfd,
+                                                                    inst:door_3340ab6f-4d66-43b2-9899-29d7cf17b29b,
+                                                                    inst:wall_b3dee06e-1f4c-48f9-ab82-0b9b6bfc034e,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:window_9a27a1f2-6e16-4210-9b4b-ca53967f4be3,
+                                                                    inst:wall_edb600f5-5461-46a3-b0c4-43ad8208ea56,
+                                                                    inst:wall_d9a5cfbe-8be3-4b2a-9d05-c64586f4d0a3.
+inst:space_474e3996-3f5a-45dd-8a77-79db272809c3 props:globalIdIfcRoot_attribute_simple "17JZcMFrf5tOftUTidA0d3";
+                                                props:longNameIfcSpatialElement_attribute_simple "K�che";
+                                                props:nameIfcRoot_attribute_simple "6";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:window_85c53ece-ce2a-4855-b353-5ee59e7d8030,
+                                                                    inst:window_0b05be8e-f7d6-4332-958e-1576ff7f4ac5,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:wall_463575f4-f696-42de-bde9-918a6fe7650a,
+                                                                    inst:wall_f5661f93-e3d1-49ce-8861-886e8d4ef048,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:wall_7feb09fa-819b-4d8b-8bb8-faaadfbbcc4e.
+inst:space_9b70cf55-60bf-443c-a53f-fba3887e6b96 props:globalIdIfcRoot_attribute_simple "2RSCzLOBz4FAK$_wE8VckM";
+                                                props:longNameIfcSpatialElement_attribute_simple "Buero";
+                                                props:nameIfcRoot_attribute_simple "2";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:window_5d292132-e148-4487-b12f-2cd8d2e05d16,
+                                                                    inst:wall_f5661f93-e3d1-49ce-8861-886e8d4ef048,
+                                                                    inst:wall_b3dee06e-1f4c-48f9-ab82-0b9b6bfc034e,
+                                                                    inst:wall_edb600f5-5461-46a3-b0c4-43ad8208ea56,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:window_76d4a4bf-6c47-48b2-b561-71747079c39d,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:door_b4b1964f-0cfd-4f21-84b4-a7552c71ed30,
+                                                                    inst:wall_65f697f6-4f4c-4836-8159-e2e335d3cbfd.
+inst:space_a768faaa-50b9-41a5-8981-3348cd48dbfb props:globalIdIfcRoot_attribute_simple "2dQFggKBb1fOc1CqZDIDlx";
+                                                props:longNameIfcSpatialElement_attribute_simple "Galerie";
+                                                props:nameIfcRoot_attribute_simple "7";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:slab_92ede797-79f6-4b19-897f-a2c98ca59097,
+                                                                    inst:wall_df324d5e-52a4-4197-8572-08263dee8193,
+                                                                    inst:window_8a3303cf-6ab7-4163-8a40-ec489b7ab270,
+                                                                    inst:window_7d60be80-428b-4582-901a-293a51c58980,
+                                                                    inst:wall_dddedd7f-1498-4e82-9817-060791b68be3,
+                                                                    inst:wall_856206b9-c21b-452d-9abc-a35a99103de2,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:slab_073b1976-d302-4c1c-a68c-26cf0bea970d,
+                                                                    inst:wall_2ec5748a-7cb6-4b3f-92fc-fb015a7d1d9e.
+inst:space_c41ed3ce-0bc8-474a-b30e-48a570e33391 props:globalIdIfcRoot_attribute_simple "347jFE2yX7IhCEIALmupEH";
+                                                props:longNameIfcSpatialElement_attribute_simple "Schlafzimmer";
+                                                props:nameIfcRoot_attribute_simple "4";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:wall_a167c520-8800-48d8-a07c-aa352a699dde,
+                                                                    inst:window_4391c887-27d9-48a5-9111-2b339303dfa8,
+                                                                    inst:wall_65f697f6-4f4c-4836-8159-e2e335d3cbfd,
+                                                                    inst:wall_85a76959-f2e0-457f-9e21-4bff17528c54,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                    inst:window_4db22d2b-a7d4-49ef-be13-9df47a84c5e4,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:wall_d9a5cfbe-8be3-4b2a-9d05-c64586f4d0a3,
+                                                                    inst:door_58c36207-1644-4382-afc9-bc61510a343a.
+inst:space_ffa42cc7-7fc5-4b1e-8cbb-18770afbd50e props:globalIdIfcRoot_attribute_simple "3$f2p7VyLB7eox67SA_zKE";
+                                                props:longNameIfcSpatialElement_attribute_simple "Flur";
+                                                props:nameIfcRoot_attribute_simple "1";
+                                                a bot:Space;
+                                                bot:adjacentElement inst:door_b4b1964f-0cfd-4f21-84b4-a7552c71ed30,
+                                                                    inst:door_ad75bd26-aeda-47c8-b03c-ada184182740,
+                                                                    inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                    inst:door_3340ab6f-4d66-43b2-9899-29d7cf17b29b,
+                                                                    inst:wall_f5661f93-e3d1-49ce-8861-886e8d4ef048,
+                                                                    inst:wall_d9a5cfbe-8be3-4b2a-9d05-c64586f4d0a3,
+                                                                    inst:wall_7feb09fa-819b-4d8b-8bb8-faaadfbbcc4e,
+                                                                    inst:wall_edb600f5-5461-46a3-b0c4-43ad8208ea56,
+                                                                    inst:door_58c36207-1644-4382-afc9-bc61510a343a,
+                                                                    inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795.
+inst:stair_c8909e67-ac99-4f15-aa82-21083c46bbf5 props:batid_attribute_simple "79A67A01-C95B-4209-86-9A-74983B65305C";
+                                                props:globalIdIfcRoot_attribute_simple "38a9vdh9bF5Qg28GWyHhlr";
+                                                props:nameIfcRoot_attribute_simple "Wendeltreppe";
+                                                a bot:Element.
+inst:storey_870ea0fa-d15f-4dde-9892-bc7d34baa998 props:elevationIfcBuildingStorey_attribute_simple "2.7"^^xsd:double;
+                                                 props:globalIdIfcRoot_attribute_simple "273g3wqLzDtfYIl7qqkgcO";
+                                                 props:longNameIfcSpatialElement_attribute_simple "ACID00000002-0000-0000-0000-000000000000";
+                                                 props:nameIfcRoot_attribute_simple "Dachgeschoss";
+                                                 a bot:Storey;
+                                                 bot:containsElement inst:member_34066be6-5c4b-4f12-a9ec-b8c258f1cf07,
+                                                                     inst:window_8a3303cf-6ab7-4163-8a40-ec489b7ab270,
+                                                                     inst:member_f43e60e0-d752-4b2d-94fc-942e8bfc46e4,
+                                                                     inst:wall_df324d5e-52a4-4197-8572-08263dee8193,
+                                                                     inst:wall_856206b9-c21b-452d-9abc-a35a99103de2,
+                                                                     inst:member_c4f59702-65e7-4b35-8a07-a876d26e1500,
+                                                                     inst:member_1ff73dd6-2075-46e1-8b5a-b4023776149a,
+                                                                     inst:member_e8660b9c-f795-4acf-a85d-dc3940482c5f,
+                                                                     inst:member_064e3598-7cb8-487f-899c-6ba683cbf227,
+                                                                     inst:member_0d75bb8e-f40d-46ab-9f50-19f9cdd42131,
+                                                                     inst:member_de774cfc-9fda-47b0-84c6-b16882dd1b2f,
+                                                                     inst:wall_dddedd7f-1498-4e82-9817-060791b68be3,
+                                                                     inst:member_7458eb34-05af-46ab-8d08-a8140c60db13,
+                                                                     inst:member_802b678d-5aa4-404f-a2ac-dfc9d4ab6630,
+                                                                     inst:beam_2890c031-5438-4a62-93fb-6e153e0ac2b5,
+                                                                     inst:member_4759132a-7e2c-4289-9561-146f21793955,
+                                                                     inst:beam_ed8d1a17-9a9e-4d5a-927a-43febb261d10,
+                                                                     inst:member_ceab638c-7df9-46f5-a871-50388f9a02b8,
+                                                                     inst:member_ad2cf8ec-6ba0-4103-97c7-8621c7514a7b,
+                                                                     inst:member_589ae61b-a2b8-4ec8-bf94-4956904e4c85,
+                                                                     inst:member_cc701d76-3839-4b1f-9591-2a7b7c924c2b,
+                                                                     inst:member_c16b8e82-44ae-4fd3-9fc9-f93a8ce28c33,
+                                                                     inst:wall_2ec5748a-7cb6-4b3f-92fc-fb015a7d1d9e,
+                                                                     inst:member_f643fb1e-8ca8-4424-9a1e-5081dea63bbe,
+                                                                     inst:slab_92ede797-79f6-4b19-897f-a2c98ca59097,
+                                                                     inst:window_7d60be80-428b-4582-901a-293a51c58980,
+                                                                     inst:member_83cf057e-0a44-4821-87f4-833f85569ba9,
+                                                                     inst:beam_8095d928-dda3-4acd-917a-228a8feed043,
+                                                                     inst:member_acc406b9-a628-4e93-abc1-a43599065d02,
+                                                                     inst:member_9ca5cced-fb38-49c7-9768-318ee8534767,
+                                                                     inst:member_98456747-2c62-4f15-96d0-fa90f55a6b4f,
+                                                                     inst:member_572cdebe-b3eb-4dff-81d2-b79eb0959c3b,
+                                                                     inst:member_8aed2767-def3-41ac-9883-f2821e24395f,
+                                                                     inst:member_ec715229-d505-4dea-83e4-d49b44f6a4fe,
+                                                                     inst:member_78bd1bd7-778b-4724-8636-0ee273aeb7cc,
+                                                                     inst:slab_073b1976-d302-4c1c-a68c-26cf0bea970d,
+                                                                     inst:member_c580398f-9845-475a-b4db-02a4ae278b36,
+                                                                     inst:member_1850c409-e101-43b0-9501-1beec3897a7d,
+                                                                     inst:railing_0993b914-7878-41f9-8231-1a7c30b2304e,
+                                                                     inst:member_77cde626-7ce6-4c42-a3f4-73d01f971b1a,
+                                                                     inst:railing_32179a8c-53c7-4bf5-817f-6939920a2359,
+                                                                     inst:member_31d97fad-b92d-4b68-be10-3d6abef563aa,
+                                                                     inst:member_c79250f4-facf-4885-bde8-d69c5651d6a1,
+                                                                     inst:slab_9b42f6ae-13b4-441d-b454-243f6677d795,
+                                                                     inst:member_a1f22e35-c3df-4d60-a4b2-8c509b2474f0,
+                                                                     inst:member_c6510835-09be-486b-87ab-5f1ca6c02c51,
+                                                                     inst:member_8d47f615-c989-4db8-adfa-d1ff579dec5c,
+                                                                     inst:member_8cece03f-b61d-48b1-8441-7cc0aa54c861,
+                                                                     inst:member_82c97fa5-6097-44b5-8168-404414807968,
+                                                                     inst:member_cf1482b4-ed3a-4ffd-abb8-ca6a1aae0a83,
+                                                                     inst:member_096304f3-7a6b-4483-95f3-0a78513d682d,
+                                                                     inst:member_fb9d5ebb-7563-4797-a12b-83261a544056,
+                                                                     inst:member_c1d7c0de-6623-47ea-856f-e0bbeb6bb863,
+                                                                     inst:member_3275a19f-05f9-4caf-8bf5-a0afaba707a4,
+                                                                     inst:member_7140d3cb-2d1e-4b4c-95f0-bfaa1a600a61,
+                                                                     inst:member_2b6eb260-2ffb-4c57-abca-b340f9a70a89;
+                                                 bot:hasSpace inst:space_a768faaa-50b9-41a5-8981-3348cd48dbfb.
+inst:storey_a8f3bcfc-63b2-45c0-902d-c368556386c0 props:elevationIfcBuildingStorey_attribute_simple "0."^^xsd:double;
+                                                 props:globalIdIfcRoot_attribute_simple "2eyxpyOx95m90jmsXLOuR0";
+                                                 props:longNameIfcSpatialElement_attribute_simple "ACID00000001-0000-0000-0000-000000000000";
+                                                 props:nameIfcRoot_attribute_simple "Erdgeschoss";
+                                                 a bot:Storey;
+                                                 bot:containsElement inst:window_9a27a1f2-6e16-4210-9b4b-ca53967f4be3,
+                                                                     inst:wall_7feb09fa-819b-4d8b-8bb8-faaadfbbcc4e,
+                                                                     inst:wall_d9a5cfbe-8be3-4b2a-9d05-c64586f4d0a3,
+                                                                     inst:wall_edb600f5-5461-46a3-b0c4-43ad8208ea56,
+                                                                     inst:wall_f5661f93-e3d1-49ce-8861-886e8d4ef048,
+                                                                     inst:window_8e6abfad-ad90-4bf8-af8a-5b8713985380,
+                                                                     inst:wall_463575f4-f696-42de-bde9-918a6fe7650a,
+                                                                     inst:window_85c53ece-ce2a-4855-b353-5ee59e7d8030,
+                                                                     inst:wall_a167c520-8800-48d8-a07c-aa352a699dde,
+                                                                     inst:door_ad75bd26-aeda-47c8-b03c-ada184182740,
+                                                                     inst:window_cb3e6f2f-3368-4711-968a-c9b2a81695f9,
+                                                                     inst:beam_f732a8dd-242b-46a7-a229-86ae8c5434f0,
+                                                                     inst:window_4391c887-27d9-48a5-9111-2b339303dfa8,
+                                                                     inst:window_4db22d2b-a7d4-49ef-be13-9df47a84c5e4,
+                                                                     inst:wall_65f697f6-4f4c-4836-8159-e2e335d3cbfd,
+                                                                     inst:window_76d4a4bf-6c47-48b2-b561-71747079c39d,
+                                                                     inst:door_3340ab6f-4d66-43b2-9899-29d7cf17b29b,
+                                                                     inst:slab_73651c69-1e68-4ccd-9d97-3b16a923e18b,
+                                                                     inst:door_58c36207-1644-4382-afc9-bc61510a343a,
+                                                                     inst:window_5d292132-e148-4487-b12f-2cd8d2e05d16,
+                                                                     inst:stair_c8909e67-ac99-4f15-aa82-21083c46bbf5,
+                                                                     inst:window_0b05be8e-f7d6-4332-958e-1576ff7f4ac5,
+                                                                     inst:door_b4b1964f-0cfd-4f21-84b4-a7552c71ed30,
+                                                                     inst:wall_85a76959-f2e0-457f-9e21-4bff17528c54,
+                                                                     inst:wall_b3dee06e-1f4c-48f9-ab82-0b9b6bfc034e,
+                                                                     inst:door_56feaede-d610-4fb3-aa03-64613ae87785;
+                                                 bot:hasSpace inst:space_9b70cf55-60bf-443c-a53f-fba3887e6b96,
+                                                              inst:space_15dc8a9b-f8e2-4e72-8411-1788bea89a09,
+                                                              inst:space_28fab96e-49a1-4d59-abd2-4ff09f0edfb0,
+                                                              inst:space_ffa42cc7-7fc5-4b1e-8cbb-18770afbd50e,
+                                                              inst:space_c41ed3ce-0bc8-474a-b30e-48a570e33391,
+                                                              inst:space_474e3996-3f5a-45dd-8a77-79db272809c3.
+inst:wall_2ec5748a-7cb6-4b3f-92fc-fb015a7d1d9e props:batid_attribute_simple "7B65A2FF-2B2E-4F49-B4-A1-7B41CF4110EE";
+                                               props:globalIdIfcRoot_attribute_simple "0knNIAVBPBFvBy_m5QVHsU";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-OG-1";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:window_7d60be80-428b-4582-901a-293a51c58980.
+inst:wall_463575f4-f696-42de-bde9-918a6fe7650a props:batid_attribute_simple "A6C3DE63-3731-4F6A-94-7E-DE8A8295779F";
+                                               props:globalIdIfcRoot_attribute_simple "16DNNqzfP2thtfaOflvsKA";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-ERDG-4";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:window_cb3e6f2f-3368-4711-968a-c9b2a81695f9,
+                                                                 inst:door_56feaede-d610-4fb3-aa03-64613ae87785,
+                                                                 inst:window_85c53ece-ce2a-4855-b353-5ee59e7d8030.
+inst:wall_65f697f6-4f4c-4836-8159-e2e335d3cbfd props:batid_attribute_simple "74EAE11D-EA09-459E-92-62-5370AED48E8E";
+                                               props:globalIdIfcRoot_attribute_simple "1bzfVsJqn8De5PukCrqylz";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-ERDG-2";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:window_5d292132-e148-4487-b12f-2cd8d2e05d16,
+                                                                 inst:window_4db22d2b-a7d4-49ef-be13-9df47a84c5e4,
+                                                                 inst:window_9a27a1f2-6e16-4210-9b4b-ca53967f4be3.
+inst:wall_7feb09fa-819b-4d8b-8bb8-faaadfbbcc4e props:batid_attribute_simple "623FF5CC-008F-4D9B-BE-AC-E81A16C53080";
+                                               props:globalIdIfcRoot_attribute_simple "1$wmdwWPjDYuku_ghVkynE";
+                                               props:nameIfcRoot_attribute_simple "Wand-Int-ERDG-5";
+                                               a bot:Element.
+inst:wall_856206b9-c21b-452d-9abc-a35a99103de2 props:batid_attribute_simple "79A3F0D1-59C9-4AE1-9D-6D-772238A0ECC7";
+                                               props:globalIdIfcRoot_attribute_simple "25OWQvmXj5BPgyergP43tY";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-OG-2";
+                                               a bot:Element.
+inst:wall_85a76959-f2e0-457f-9e21-4bff17528c54 props:batid_attribute_simple "D1BD94FD-C699-41C5-B0-98-57167561802A";
+                                               props:globalIdIfcRoot_attribute_simple "25fsbPyk15VvuXI$yNKenK";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-ERDG-3";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:window_8e6abfad-ad90-4bf8-af8a-5b8713985380,
+                                                                 inst:window_4391c887-27d9-48a5-9111-2b339303dfa8.
+inst:wall_a167c520-8800-48d8-a07c-aa352a699dde props:batid_attribute_simple "BC6F0F70-6195-495E-A2-FC-239713029DB1";
+                                               props:globalIdIfcRoot_attribute_simple "2XPyKWY018sA1ygZKgQPtU";
+                                               props:nameIfcRoot_attribute_simple "Wand-Int-ERDG-4";
+                                               a bot:Element.
+inst:wall_b3dee06e-1f4c-48f9-ab82-0b9b6bfc034e props:batid_attribute_simple "8C826359-B394-49D6-BD-D5-49D50F806B56";
+                                               props:globalIdIfcRoot_attribute_simple "2ptk1k7qn8_Qk22vjh$0DE";
+                                               props:nameIfcRoot_attribute_simple "Wand-Int-ERDG-1";
+                                               a bot:Element.
+inst:wall_d9a5cfbe-8be3-4b2a-9d05-c64586f4d0a3 props:batid_attribute_simple "40F78310-9E7E-4793-BC-9E-DB102FD72B73";
+                                               props:globalIdIfcRoot_attribute_simple "3PfS__Y_DBAfq5naM6zD2Z";
+                                               props:nameIfcRoot_attribute_simple "Wand-Int-ERDG-2";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:door_58c36207-1644-4382-afc9-bc61510a343a.
+inst:wall_dddedd7f-1498-4e82-9817-060791b68be3 props:batid_attribute_simple "C0070317-136B-4A93-BD-CC-3B8478F23A5C";
+                                               props:globalIdIfcRoot_attribute_simple "3Ttjr$59XEWfWN1WUHjelZ";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-OG-4";
+                                               a bot:Element.
+inst:wall_df324d5e-52a4-4197-8572-08263dee8193 props:batid_attribute_simple "5D0903EC-02FE-4DE0-98-05-1D4D15974A41";
+                                               props:globalIdIfcRoot_attribute_simple "3VCarUKgH1buLo22Ozxe6J";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-OG-3";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:window_8a3303cf-6ab7-4163-8a40-ec489b7ab270.
+inst:wall_edb600f5-5461-46a3-b0c4-43ad8208ea56 props:batid_attribute_simple "2197C9B9-DEF1-444F-B8-1E-1DB092762AB7";
+                                               props:globalIdIfcRoot_attribute_simple "3jjW3rL656ex34Gws22EfM";
+                                               props:nameIfcRoot_attribute_simple "Wand-Int-ERDG-3";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:door_3340ab6f-4d66-43b2-9899-29d7cf17b29b,
+                                                                 inst:door_b4b1964f-0cfd-4f21-84b4-a7552c71ed30.
+inst:wall_f5661f93-e3d1-49ce-8861-886e8d4ef048 props:batid_attribute_simple "BEF1E630-DE4B-41C5-AD-66-B87F1A8D67A1";
+                                               props:globalIdIfcRoot_attribute_simple "3rPX_Juz59peXXY6wDJl18";
+                                               props:nameIfcRoot_attribute_simple "Wand-Ext-ERDG-1";
+                                               a bot:Element;
+                                               bot:hasSubElement inst:door_ad75bd26-aeda-47c8-b03c-ada184182740,
+                                                                 inst:window_76d4a4bf-6c47-48b2-b561-71747079c39d,
+                                                                 inst:window_0b05be8e-f7d6-4332-958e-1576ff7f4ac5.
+inst:window_0b05be8e-f7d6-4332-958e-1576ff7f4ac5 props:batid_attribute_simple "E5AC7902-7454-439D-AF-DD-A1E5E37A0D08";
+                                                 props:globalIdIfcRoot_attribute_simple "0B1RwEzzP3CfME5NR$Vqh5";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-7";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_4>.
+inst:window_4391c887-27d9-48a5-9111-2b339303dfa8 props:batid_attribute_simple "8FAFF59C-23BB-48D6-9C-CE-C4F804C53C9A";
+                                                 props:globalIdIfcRoot_attribute_simple "13aSY79zb8fP4HApEJ0z_e";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-8";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_1>.
+inst:window_4db22d2b-a7d4-49ef-be13-9df47a84c5e4 props:batid_attribute_simple "EDE1E333-3D1C-441D-BE-45-790DF31E9DDC";
+                                                 props:globalIdIfcRoot_attribute_simple "1DiYqhfzH9xxuJdVHwXCNa";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-3";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_5>.
+inst:window_5d292132-e148-4487-b12f-2cd8d2e05d16 props:batid_attribute_simple "EAC2BE5E-BCD2-474E-95-24-57C652F96BF7";
+                                                 props:globalIdIfcRoot_attribute_simple "1TAI4ouKX4Xx4lBDZIu5qM";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-1";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_8>.
+inst:window_76d4a4bf-6c47-48b2-b561-71747079c39d props:batid_attribute_simple "2872C43C-81BB-4535-95-65-B3AC3FB4DE23";
+                                                 props:globalIdIfcRoot_attribute_simple "1srAI$R4T8ihLXSNHmUSET";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-6";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_6>.
+inst:window_7d60be80-428b-4582-901a-293a51c58980 props:batid_attribute_simple "FA683FAD-0F01-4AF4-93-87-2834E91204A6";
+                                                 props:globalIdIfcRoot_attribute_simple "1zOBw0Gej5Wf0QAJfHnOc0";
+                                                 props:nameIfcRoot_attribute_simple "OG-Fenster-2";
+                                                 props:overallHeightIfcWindow_attribute_simple "1."^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "1."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_7>.
+inst:window_85c53ece-ce2a-4855-b353-5ee59e7d8030 props:batid_attribute_simple "436D2D20-7879-42FD-A7-70-F2BECB09D642";
+                                                 props:globalIdIfcRoot_attribute_simple "25nJxEpYf8LRDJNkMUVO0m";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-4";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_11>.
+inst:window_8a3303cf-6ab7-4163-8a40-ec489b7ab270 props:batid_attribute_simple "671AB351-B612-4D9E-BC-6F-DAEBA688142F";
+                                                 props:globalIdIfcRoot_attribute_simple "2ACmFFQhT1Ouf0x4YRUh9m";
+                                                 props:nameIfcRoot_attribute_simple "OG-Fenster-1";
+                                                 props:overallHeightIfcWindow_attribute_simple "1."^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "1."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_2>.
+inst:window_8e6abfad-ad90-4bf8-af8a-5b8713985380 props:batid_attribute_simple "A896A1CB-16B1-4CCD-A5-98-F5C5BC0C37DE";
+                                                 props:globalIdIfcRoot_attribute_simple "2EQh_jhP1B_A_AMuSJc5E0";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-9";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_10>.
+inst:window_9a27a1f2-6e16-4210-9b4b-ca53967f4be3 props:batid_attribute_simple "84B24574-B3EE-412A-A4-33-CE7E10ED2A8D";
+                                                 props:globalIdIfcRoot_attribute_simple "2Q9w7oRXP249jBobEMVqlZ";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-2";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_3>.
+inst:window_cb3e6f2f-3368-4711-968a-c9b2a81695f9 props:batid_attribute_simple "EE544359-8729-43CD-AE-E2-4BB37935CFDA";
+                                                 props:globalIdIfcRoot_attribute_simple "3BFcylCsX74PQAoRAe5fNv";
+                                                 props:nameIfcRoot_attribute_simple "EG-Fenster-5";
+                                                 props:overallHeightIfcWindow_attribute_simple "1.2"^^xsd:double;
+                                                 props:overallWidthIfcWindow_attribute_simple "2."^^xsd:double;
+                                                 a bot:Element;
+                                                 <https://example.org/hasSmartBlind> <https://example.org/smartBlind_9>.
